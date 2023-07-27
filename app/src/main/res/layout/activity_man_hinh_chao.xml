@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManHinhChao"
+    android:orientation="vertical"
+    android:gravity="center">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_chao"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Nhập mã sinh viên"
+        android:id="@+id/ed_msvien"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="SAVE"
+        android:gravity="center"
+        android:id="@+id/btn_save"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Vui lòng nhập đúng mã sinh viên của bạn!"
+        android:textColor="#F44336"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_tbao"/>
+
+</LinearLayout>
